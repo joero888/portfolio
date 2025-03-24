@@ -38,3 +38,106 @@ body {
     background-color: #005a99;
   }
   
+  .circular-image {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    border: 5px solid black; 
+    object-fit: cover; 
+    display: block; 
+    margin: 20px auto; 
+  }
+
+  .project-link {
+    text-decoration: none; /* Removes underline */
+    color: #007BFF; /* Sets blue color for links */
+  }
+  
+  .project-link:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: #0056b3; /* Darkens the color on hover */
+  }
+
+  /* Navigation Bar Styles */
+.navbar {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display links in a row */
+  justify-content: center; /* Center the links */
+  background-color: #007acc; /* Background color of navbar */
+  padding: 1rem;
+}
+
+.navbar li {
+  margin: 0 1rem; /* Add spacing between links */
+}
+
+.nav-link {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Set link color */
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: #f2f2f2; /* Lighten the color on hover */
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+/* Dark Mode Toggle Button */
+.toggle-dark-btn {
+  padding: 0.5rem 1rem;
+  background-color: #007acc;
+  color: white;
+  border: 2px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.toggle-dark-btn:hover {
+  background-color: #2b0099;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode a {
+  color: #1e90ff;
+}
+
+/* Hide the form by default */
+.hidden-form {
+  display: none;
+  margin-top: 1rem;
+}
+
+.hidden-form input,
+.hidden-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hidden-form button {
+  padding: 0.5rem 1rem;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hidden-form button:hover {
+  background-color: #005a99;
+}
